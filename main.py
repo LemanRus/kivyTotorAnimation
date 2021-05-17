@@ -68,4 +68,5 @@ class AnimRect(Widget):
         if self.collide_point(*touch.pos):
             self.anim_to_random_pos()
 
+
 runTouchApp(Root())
